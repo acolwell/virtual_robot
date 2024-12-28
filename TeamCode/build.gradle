@@ -1,0 +1,8 @@
+
+dependencies {
+    implementation project(':Controller')
+
+    implementation 'org.openpnp:opencv:4.7.0-0'
+}
+
+sourceSets.main.java.srcDirs = ['src']
